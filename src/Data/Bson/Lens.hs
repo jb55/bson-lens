@@ -51,8 +51,11 @@ instance Ixed IndexedDocument where
         | k == k'   = ((:=) <$> pure k' <*> f v) <&> (:as)
         | otherwise = (kv:) <$> go as k
 
-_IndexedDocument :: Iso' Document IndexedDocument 
+_IndexedDocument :: Iso' Document IndexedDocument
 _IndexedDocument = iso IndexedDocument runIndexedDocument
 
+_IndexedDoc :: Prism' Value IndexedDocument
+_IndexedDoc = _Doc . _IndexedDocument
+
 key :: Label -> Traversal' Value Value
-key field = _Doc . _IndexedDocument . ix field
+key field = _IndexedDoc . ix field
