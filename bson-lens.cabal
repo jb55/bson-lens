@@ -4,7 +4,7 @@
 name:                bson-lens
 version:             0.1.0
 synopsis:            BSON lenses
-description:         Lenses for Data.Bson.Lens
+description:         Lenses for Data.Bson
 homepage:            https://github.com/jb55/bson-lens
 license:             MIT
 license-file:        LICENSE
