@@ -13,4 +13,4 @@
 
 ## Docs
 
-  http://jb55.com/docs/bson-lens
+  https://hackage.haskell.org/package/bson-lens
