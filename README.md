@@ -1,6 +1,14 @@
 
 # bson-lens
 
-Lenses for BSON
+  Lenses for BSON
 
-Work in progress
+## Installation
+
+  Install with cabal
+
+    $ cabal install bson-lens
+
+## Docs
+
+  https://hackage.haskell.org/package/bson-lens
