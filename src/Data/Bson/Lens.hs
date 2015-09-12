@@ -38,6 +38,7 @@ module Data.Bson.Lens
 where
 
 import Data.Bson
+import Control.Applicative
 import Control.Lens
 import Data.Text
 -- import Data.Profunctor
