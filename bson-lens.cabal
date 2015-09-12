@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                bson-lens
-version:             0.1.0
+version:             0.1.1
 synopsis:            BSON lenses
 description:         Lenses for Data.Bson
 homepage:            https://github.com/jb55/bson-lens
