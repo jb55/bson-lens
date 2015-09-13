@@ -13,4 +13,4 @@
 
 ## Docs
 
-  https://hackage.haskell.org/package/bson-lens
+  http://hackage.haskell.org/package/bson-lens/docs/Data-Bson-Lens.html
