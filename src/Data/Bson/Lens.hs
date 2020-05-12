@@ -26,6 +26,7 @@ module Data.Bson.Lens
 , _Int64
 
 , key
+, field
 , values
 , fields
 , members
